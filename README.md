@@ -1,4 +1,4 @@
-<img src="assets/bmw-banner.png" width="100%" alt="BMW M5" />
+<img src="assets/bmw-banner.png" width="35%" alt="BMW M5" />
 
 Hey, I'm Parth 👋
 B.Tech Computer Engineering student (Mumbai University, 2024–2028) building local-first AI systems. I care about privacy, offline-first architecture, and shipping real tools rather than API wrappers.
@@ -39,4 +39,4 @@ Stats
 <img src="assets/football-meme.png" width="400" alt="Football meme" />
 </p>
 
-<p align="center"><em>"Watching niche football while my code compiles."</em></p>
+<p align="center"><em>"Watching football while my code compiles."</em></p>
