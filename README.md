@@ -1,40 +1,42 @@
-## Hey, I'm Parth 👋
+<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/bmw-banner.png" width="100%" alt="BMW M5" />
 
+Hey, I'm Parth 👋
 B.Tech Computer Engineering student (Mumbai University, 2024–2028) building local-first AI systems. I care about privacy, offline-first architecture, and shipping real tools rather than API wrappers.
 
-Currently focused on: speech pipelines (whisper.cpp + llama.cpp), RAG systems, browser AI safety, and in-browser Python execution via WebAssembly.
+When I'm not coding, you'll find me watching niche football or looking at my dream car — a black BMW M5 with one red headlight (don't ask why, it just looks right).
 
----
+What I'm Building
+Project
+Stack
+What it does
+WhisperFlow	Python · whisper.cpp · llama.cpp	Offline speech-to-text + LLM pipeline. Zero cloud, zero pip deps.
+StudyOS	Next.js 16 · Prisma · SQLite	Local-first GATE 2027 prep PWA. 13 Prisma models, offline-first. Live →
+Nexus-AI	Vanilla JS · Pyodide/WASM · Canvas	Educational coding game — real Python in-browser via WebAssembly.
+2'nd_Brain	FastAPI · ChromaDB · SQLite · Gemini	Local RAG knowledge base. Dual-store, streaming SSE, knowledge graph.
+Agent Safety Net	TypeScript · Chrome MV3 · React	Browser extension — runtime safety for AI agents. PII + prompt injection detection.
+Shorts Intelligence OS	FastAPI · NVIDIA NIM · FAISS	Multi-agent YouTube Shorts analyzer. 15 formally specified metrics.
 
-### What I'm Building
+Tech Stack
+Python TypeScript Next.js FastAPI Prisma SQLite ChromaDB
 
-| Project | Stack | What it does |
-|---|---|---|
-| [**WhisperFlow**](https://github.com/ParthVarekar/whisper_flow_clone_local) | Python · whisper.cpp · llama.cpp | Offline speech-to-text + LLM pipeline. Zero cloud, zero pip deps. |
-| [**StudyOS**](https://github.com/ParthVarekar/studyos) | Next.js 16 · Prisma · SQLite | Local-first GATE 2027 prep PWA. 13 Prisma models, offline-first. [Live →](https://gate-2027-tracker.space-z.ai) |
-| [**Nexus-AI**](https://github.com/ParthVarekar/coding_game) | Vanilla JS · Pyodide/WASM · Canvas | Educational coding game — real Python in-browser via WebAssembly. |
-| [**2'nd_Brain**](https://github.com/ParthVarekar/2-nd_Brain) | FastAPI · ChromaDB · SQLite · Gemini | Local RAG knowledge base. Dual-store, streaming SSE, knowledge graph. |
-| [**Agent Safety Net**](https://github.com/ParthVarekar/agent_safety_net) | TypeScript · Chrome MV3 · React | Browser extension — runtime safety for AI agents. PII + prompt injection detection. |
-| [**Shorts Intelligence OS**](https://github.com/ParthVarekar/shorts-intelligence-os) | FastAPI · NVIDIA NIM · FAISS | Multi-agent YouTube Shorts analyzer. 15 formally specified metrics. |
+whisper.cpp llama.cpp Pyodide Chrome MV3 React Tailwind
 
----
+Connect
+LinkedIn Email LeetCode Instagram
 
-### Tech Stack
+Stats
+<p>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=ParthVarekar&show_icons=true&theme=dark&include_all_commits=true&count_private=true&hide_border=true" height="170" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ParthVarekar&theme=dark&hide_border=true" height="170" />
+</p>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square&logo=chroma&logoColor=white)
+<p>
+<img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=ParthVarekar&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="170" />
+<img src="https://github-profile-trophy.vercel.app/?username=ParthVarekar&theme=dark&no-frame=true&column=4&margin-w=15&margin-h=15" height="170" />
+</p>
 
-![whisper.cpp](https://img.shields.io/badge/whisper.cpp-000000?style=flat-square&logo=c&logoColor=white) ![llama.cpp](https://img.shields.io/badge/llama.cpp-000000?style=flat-square&logo=c&logoColor=white) ![Pyodide](https://img.shields.io/badge/Pyodide/WASM-3776AB?style=flat-square&logo=python&logoColor=white) ![Chrome MV3](https://img.shields.io/badge/Chrome_MV3-4285F4?style=flat-square&logo=googlechrome&logoColor=white) ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+<p align="center">
+<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/football-meme.png" width="400" alt="Football meme" />
+</p>
 
----
-
-### Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/parth-varekar-a90b412b1) [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:parthvarekar27@gmail.com) [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/Parth_Sucks_At_Coding) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/par.thh06)
-
----
-
-### Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=ParthVarekar&theme=dark&hide_border=true&include_all_commits=true&count_private=true" height="165" /> <img src="https://nirzak-streak-stats.vercel.app/?user=ParthVarekar&theme=dark&hide_border=true" height="165" />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParthVarekar&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="165" />
+<p align="center"><em>"Watching niche football while my code compiles."</em></p>
