@@ -1,27 +1,40 @@
-# 💫 About Me:
-I’m a developer who enjoys building things and understanding how they work under the hood. I like writing clean, efficient code and solving problems logically rather than relying on shortcuts.<br><br>I’m comfortable working across different parts of the stack and enjoy learning new tools when a project needs them. I care about performance, clarity, and making software that’s easy to maintain.<br><br>Right now, I’m focused on improving my fundamentals, building solid projects, and getting better every day as a developer.
+## Hey, I'm Parth 👋
 
+B.Tech Computer Engineering student (Mumbai University, 2024–2028) building local-first AI systems. I care about privacy, offline-first architecture, and shipping real tools rather than API wrappers.
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/par.thh06) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/parth-varekar-601432344) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:parthvarekar27@gmail.com) 
-
-# 💻 Tech Stack:
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=ParthVarekar&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=ParthVarekar&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ParthVarekar&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=ParthVarekar&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=ParthVarekar&limit=5&theme=tokyonight&combine_all_yearly_contributions=true)
+Currently focused on: speech pipelines (whisper.cpp + llama.cpp), RAG systems, browser AI safety, and in-browser Python execution via WebAssembly.
 
 ---
-[![](https://visitcount.itsvg.in/api?id=ParthVarekar&icon=10&color=11)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### What I'm Building
+
+| Project | Stack | What it does |
+|---|---|---|
+| [**WhisperFlow**](https://github.com/ParthVarekar/whisper_flow_clone_local) | Python · whisper.cpp · llama.cpp | Offline speech-to-text + LLM pipeline. Zero cloud, zero pip deps. |
+| [**StudyOS**](https://github.com/ParthVarekar/studyos) | Next.js 16 · Prisma · SQLite | Local-first GATE 2027 prep PWA. 13 Prisma models, offline-first. [Live →](https://gate-2027-tracker.space-z.ai) |
+| [**Nexus-AI**](https://github.com/ParthVarekar/coding_game) | Vanilla JS · Pyodide/WASM · Canvas | Educational coding game — real Python in-browser via WebAssembly. |
+| [**2'nd_Brain**](https://github.com/ParthVarekar/2-nd_Brain) | FastAPI · ChromaDB · SQLite · Gemini | Local RAG knowledge base. Dual-store, streaming SSE, knowledge graph. |
+| [**Agent Safety Net**](https://github.com/ParthVarekar/agent_safety_net) | TypeScript · Chrome MV3 · React | Browser extension — runtime safety for AI agents. PII + prompt injection detection. |
+| [**Shorts Intelligence OS**](https://github.com/ParthVarekar/shorts-intelligence-os) | FastAPI · NVIDIA NIM · FAISS | Multi-agent YouTube Shorts analyzer. 15 formally specified metrics. |
+
+---
+
+### Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Next.js](https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square&logo=chroma&logoColor=white)
+
+![whisper.cpp](https://img.shields.io/badge/whisper.cpp-000000?style=flat-square&logo=c&logoColor=white) ![llama.cpp](https://img.shields.io/badge/llama.cpp-000000?style=flat-square&logo=c&logoColor=white) ![Pyodide](https://img.shields.io/badge/Pyodide/WASM-3776AB?style=flat-square&logo=python&logoColor=white) ![Chrome MV3](https://img.shields.io/badge/Chrome_MV3-4285F4?style=flat-square&logo=googlechrome&logoColor=white) ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black) ![Tailwind](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+---
+
+### Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/parth-varekar-a90b412b1) [![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:parthvarekar27@gmail.com) [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white)](https://leetcode.com/u/Parth_Sucks_At_Coding) [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/par.thh06)
+
+---
+
+### Stats
+
+<img src="https://github-readme-stats.vercel.app/api?username=ParthVarekar&theme=dark&hide_border=true&include_all_commits=true&count_private=true" height="165" /> <img src="https://nirzak-streak-stats.vercel.app/?user=ParthVarekar&theme=dark&hide_border=true" height="165" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParthVarekar&theme=dark&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="165" />
