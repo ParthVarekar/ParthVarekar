@@ -45,7 +45,7 @@
 <br/><br/>
 
 <!-- live stats: shields.io dynamic badges (real-time from GitHub API, always accurate) -->
-<a href="https://github.com/ParthVarekar"><img src="https://img.shields.io/github/commits/ParthVarekar/ParthVarekar?style=flat&color=39FF14&label=commits&labelColor=0d1117" alt="commits" /></a>
+<a href="https://github.com/ParthVarekar"><img src="https://img.shields.io/github/commit-activity/m/ParthVarekar/ParthVarekar?style=flat&color=39FF14&label=commits%2Fmonth&labelColor=0d1117" alt="commits per month" /></a>
 <a href="https://github.com/ParthVarekar?tab=repositories"><img src="https://img.shields.io/github/search/user/ParthVarekar/repos?style=flat&color=39FF14&label=public%20repos&labelColor=0d1117" alt="repos" /></a>
 <a href="https://github.com/ParthVarekar"><img src="https://img.shields.io/github/followers/ParthVarekar?style=flat&color=39FF14&label=followers&labelColor=0d1117" alt="followers" /></a>
 <a href="https://github.com/ParthVarekar"><img src="https://img.shields.io/github/last-commit/ParthVarekar/ParthVarekar?style=flat&color=39FF14&label=last%20commit&labelColor=0d1117" alt="last commit" /></a>
