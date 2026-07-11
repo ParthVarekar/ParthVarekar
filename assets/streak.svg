@@ -12,9 +12,9 @@
   <text x="20" y="32" class="title">▍ streak stats</text>
   <line x1="20" y1="44" x2="420" y2="44" stroke="#163024" stroke-width="1"/>
   <text x="30" y="80" class="icon" font-size="18">●</text>
-  <text x="54" y="80" class="value">257</text>
+  <text x="54" y="80" class="value">266</text>
   <text x="30" y="105" class="label">Total Contributions</text>
-  <text x="170" y="80" class="icon" font-size="18">🔥</text>
+  <text x="170" y="80" class="icon" font-size="18">→</text>
   <text x="194" y="80" class="value">2 days</text>
   <text x="170" y="105" class="label">Current Streak</text>
   <text x="310" y="80" class="icon" font-size="18">★</text>
