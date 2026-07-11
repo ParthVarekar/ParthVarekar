@@ -33,16 +33,12 @@
 
 <br/><br/>
 
-<!-- live github stats (auto-updates: commits, PRs, issues, stars) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ParthVarekar&show_icons=true&hide_border=true&theme=chartreuse-dark&bg_color=0D1117&title_color=39FF14&icon_color=39FF14&text_color=C9D1D9&count_private=true" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ParthVarekar&show_icons=true&hide_border=true&theme=default&bg_color=FFFFFF&title_color=1A7F37&icon_color=1A7F37&text_color=24292F&count_private=true" />
-  <img alt="github stats" src="https://github-readme-stats.vercel.app/api?username=ParthVarekar&show_icons=true&hide_border=true&theme=chartreuse-dark&count_private=true" width="420" />
-</picture>
+<!-- live stats (custom SVG, auto-regenerated daily by github action) -->
+<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/stats.svg" alt="github stats" width="420" />
 
 <br/><br/>
 
-<!-- streak + top languages (auto-update from github api) -->
+<!-- streak (auto-updates from github api) -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=ParthVarekar&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" />
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=ParthVarekar&theme=default&hide_border=true&background=FFFFFF&ring=1A7F37&fire=1A7F37&currStreakLabel=1A7F37" />
@@ -51,20 +47,13 @@
 
 <br/><br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ParthVarekar&layout=compact&hide_border=true&theme=chartreuse-dark&bg_color=0D1117&title_color=39FF14" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ParthVarekar&layout=compact&hide_border=true&theme=default&bg_color=FFFFFF&title_color=1A7F37" />
-  <img alt="top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParthVarekar&layout=compact&hide_border=true&theme=chartreuse-dark" width="420" />
-</picture>
+<!-- top languages (custom SVG, auto-regenerated daily) -->
+<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/languages.svg" alt="top languages" width="420" />
 
 <br/><br/>
 
-<!-- contribution snake (auto-generated daily by github action) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/github-contribution-grid-snake.svg" />
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/github-contribution-grid-snake-dark.svg" width="500" />
-</picture>
+<!-- contribution graph (custom SVG, auto-regenerated daily from live data) -->
+<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/contributions.svg" alt="contribution graph" width="500" />
 
 <br/><br/>
 
