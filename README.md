@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/hero-banner.png" alt="CRT terminal" width="420" />
+<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/hero-banner.png" alt="CRT terminal" width="600" />
 
 <br/><br/>
 
