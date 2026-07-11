@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="718" height="256" viewBox="0 0 718 256">
+<svg xmlns="http://www.w3.org/2000/svg" width="734" height="352" viewBox="0 0 734 352">
   <defs>
     <filter id="g" x="-10%" y="-10%" width="120%" height="120%">
       <feGaussianBlur stdDeviation="0.8" result="b"/>
@@ -15,5 +15,5 @@
     </style>
   </defs>
   <rect class="bg" width="100%" height="100%" rx="8" ry="8"/>
-  <text x="24" y="44" class="t" xml:space="preserve"></text>\n  <text x="24" y="70" class="t" xml:space="preserve">  github  →  github.com/ParthVarekar</text>\n  <text x="24" y="96" class="t" xml:space="preserve">  web     →  parthvarekar.in</text>\n  <text x="24" y="122" class="t" xml:space="preserve">  email   →  open a github issue</text>\n  <text x="24" y="148" class="t" xml:space="preserve"></text>\n  <text x="24" y="174" class="t" xml:space="preserve">  open to collabs, hackathons (SIH),</text>\n  <text x="24" y="200" class="t" xml:space="preserve">  and anything that needs a curious mind.</text>\n  <text x="24" y="226" class="t" xml:space="preserve"></text>
+  <text x="32" y="58" class="t" xml:space="preserve"></text>\n  <text x="32" y="90" class="t" xml:space="preserve">  github  →  github.com/ParthVarekar</text>\n  <text x="32" y="122" class="t" xml:space="preserve">  web     →  parthvarekar.in</text>\n  <text x="32" y="154" class="t" xml:space="preserve">  email   →  open a github issue</text>\n  <text x="32" y="186" class="t" xml:space="preserve"></text>\n  <text x="32" y="218" class="t" xml:space="preserve"></text>\n  <text x="32" y="250" class="t" xml:space="preserve">  open to collabs, hackathons (SIH),</text>\n  <text x="32" y="282" class="t" xml:space="preserve">  and anything that needs a curious mind.</text>\n  <text x="32" y="314" class="t" xml:space="preserve"></text>
 </svg>
