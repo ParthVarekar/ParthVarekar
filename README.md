@@ -38,12 +38,8 @@
 
 <br/><br/>
 
-<!-- streak (auto-updates from github api) -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=ParthVarekar&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=ParthVarekar&theme=default&hide_border=true&background=FFFFFF&ring=1A7F37&fire=1A7F37&currStreakLabel=1A7F37" />
-  <img alt="streak stats" src="https://github-readme-streak-stats.herokuapp.com/?user=ParthVarekar&theme=chartreuse-dark&hide_border=true" width="420" />
-</picture>
+<!-- streak (custom SVG, auto-regenerated daily from live data) -->
+<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/streak.svg" alt="streak stats" width="420" />
 
 <br/><br/>
 
