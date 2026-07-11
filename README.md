@@ -3,7 +3,7 @@
 <div align="center">
 
 <!-- hero: click → github profile -->
-<a href="https://github.com/ParthVarekar"><img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/hero-banner.png" alt="CRT terminal" width="600" /></a>
+<a href="https://github.com/ParthVarekar"><img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/hero-banner.png" alt="CRT terminal" width="600" /></a>
 
 <br/><br/>
 
@@ -12,11 +12,11 @@
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/name.svg" alt="ASCII name art" width="500" />
+<img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/name.svg" alt="ASCII name art" width="500" />
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/profile.svg" alt="about and skills" width="500" />
+<img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/profile.svg" alt="about and skills" width="500" />
 
 <br/><br/>
 
@@ -32,7 +32,7 @@
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/projects.svg" alt="projects" width="500" />
+<img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/projects.svg" alt="projects" width="500" />
 
 <br/>
 
@@ -45,26 +45,26 @@
 <br/><br/>
 
 <!-- stats: click → github profile -->
-<a href="https://github.com/ParthVarekar"><img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/stats.svg" alt="github stats" width="420" /></a>
+<a href="https://github.com/ParthVarekar"><img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/stats.svg" alt="github stats" width="420" /></a>
 
 <br/><br/>
 
 <!-- streak: click → github profile -->
-<a href="https://github.com/ParthVarekar"><img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/streak.svg" alt="streak stats" width="420" /></a>
+<a href="https://github.com/ParthVarekar"><img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/streak.svg" alt="streak stats" width="420" /></a>
 
 <br/><br/>
 
 <!-- languages: click → github profile -->
-<a href="https://github.com/ParthVarekar"><img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/languages.svg" alt="top languages" width="420" /></a>
+<a href="https://github.com/ParthVarekar"><img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/languages.svg" alt="top languages" width="420" /></a>
 
 <br/><br/>
 
 <!-- contribution graph: click → github contributions -->
-<a href="https://github.com/ParthVarekar"><img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/contributions.svg" alt="contribution graph" width="500" /></a>
+<a href="https://github.com/ParthVarekar"><img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/contributions.svg" alt="contribution graph" width="500" /></a>
 
 <br/><br/>
 
-<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/connect.svg" alt="connect" width="500" />
+<img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/connect.svg" alt="connect" width="500" />
 
 <br/>
 
