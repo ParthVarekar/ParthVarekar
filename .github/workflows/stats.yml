@@ -1,0 +1,178 @@
+name: 📊 update profile stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily at midnight UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/stats.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+
+      - name: setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: generate stats svgs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 << 'PYEOF'
+          import os, json, urllib.request
+
+          TOKEN = os.environ["GH_TOKEN"]
+          OWNER = "ParthVarekar"
+
+          def gh_api(path):
+              req = urllib.request.Request(f"https://api.github.com{path}")
+              req.add_header("Authorization", f"Bearer {TOKEN}")
+              req.add_header("Accept", "application/vnd.github+json")
+              with urllib.request.urlopen(req) as r:
+                  return json.loads(r.read())
+
+          def gh_graphql(query):
+              req = urllib.request.Request("https://api.github.com/graphql",
+                  data=json.dumps({"query": query}).encode(), method="POST")
+              req.add_header("Authorization", f"Bearer {TOKEN}")
+              req.add_header("Content-Type", "application/json")
+              with urllib.request.urlopen(req) as r:
+                  return json.loads(r.read())
+
+          user = gh_api(f"/users/{OWNER}")
+          repos = gh_api(f"/users/{OWNER}/repos?per_page=100")
+
+          total_stars = sum(r.get("stargazers_count", 0) for r in repos)
+          lang_counts = {}
+          for r in repos:
+              lang = r.get("language")
+              if lang: lang_counts[lang] = lang_counts.get(lang, 0) + 1
+
+          q = """
+          query {
+            user(login: "ParthVarekar") {
+              contributionsCollection {
+                contributionCalendar { totalContributions weeks { contributionDays { contributionCount date } } }
+                totalCommitContributions
+                totalPullRequestContributions
+                totalIssueContributions
+              }
+            }
+          }
+          """
+          gql = gh_graphql(q)
+          cc = gql["data"]["user"]["contributionsCollection"]
+          total_contribs = cc["contributionCalendar"]["totalContributions"]
+          total_commits = cc["totalCommitContributions"]
+          total_prs = cc["totalPullRequestContributions"]
+          total_issues = cc["totalIssueContributions"]
+          weeks = cc["contributionCalendar"]["weeks"]
+
+          os.makedirs("assets", exist_ok=True)
+
+          # ── stats.svg ──
+          W, H = 440, 180
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
+            <defs><style>
+              .bg {{ fill: #0d1117; }}
+              .title {{ fill: #39ff14; font-family: monospace; font-size: 16px; font-weight: bold; }}
+              .label {{ fill: #8b949e; font-family: monospace; font-size: 13px; }}
+              .value {{ fill: #39ff14; font-family: monospace; font-size: 20px; font-weight: bold; }}
+              .icon {{ fill: #39ff14; }}
+            </style></defs>
+            <rect class="bg" width="100%" height="100%" rx="10" ry="10"/>
+            <text x="20" y="32" class="title">▍ parth's github stats</text>
+            <line x1="20" y1="44" x2="{W-20}" y2="44" stroke="#163024" stroke-width="1"/>'''
+          stats = [
+              ("Total Stars", f"{total_stars}", "★"),
+              ("Total Commits", f"{total_commits}", "⎇"),
+              ("Total PRs", f"{total_prs}", "⇄"),
+              ("Total Issues", f"{total_issues}", "✦"),
+              ("Contributions", f"{total_contribs}", "●"),
+              ("Repositories", f"{user['public_repos']}", "▣"),
+          ]
+          for i, (label, value, icon) in enumerate(stats):
+              col = i % 3; row = i // 3
+              x = 25 + col * 135; y = 70 + row * 55
+              svg += f'<text x="{x}" y="{y}" class="icon" font-size="16">{icon}</text>'
+              svg += f'<text x="{x+22}" y="{y}" class="value">{value}</text>'
+              svg += f'<text x="{x}" y="{y+18}" class="label">{label}</text>'
+          svg += '</svg>'
+          with open("assets/stats.svg", "w") as f: f.write(svg)
+
+          # ── languages.svg ──
+          lang_sorted = sorted(lang_counts.items(), key=lambda x: -x[1])[:6]
+          total_lang = sum(c for _, c in lang_sorted) or 1
+          H2 = 50 + len(lang_sorted) * 32 + 20
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H2}" viewBox="0 0 {W} {H2}">
+            <defs><style>
+              .bg {{ fill: #0d1117; }}
+              .title {{ fill: #39ff14; font-family: monospace; font-size: 16px; font-weight: bold; }}
+              .label {{ fill: #8b949e; font-family: monospace; font-size: 13px; }}
+              .value {{ fill: #39ff14; font-family: monospace; font-size: 14px; font-weight: bold; }}
+            </style></defs>
+            <rect class="bg" width="100%" height="100%" rx="10" ry="10"/>
+            <text x="20" y="32" class="title">▍ top languages</text>
+            <line x1="20" y1="44" x2="{W-20}" y2="44" stroke="#163024" stroke-width="1"/>'''
+          for i, (lang, count) in enumerate(lang_sorted):
+              y = 70 + i * 32
+              pct = round(count / total_lang * 100)
+              bar_w = int((W - 200) * pct / 100)
+              svg += f'<text x="20" y="{y}" class="label">{lang}</text>'
+              svg += f'<rect x="120" y="{y-12}" width="{W-200}" height="14" fill="#163024" rx="3"/>'
+              svg += f'<rect x="120" y="{y-12}" width="{bar_w}" height="14" fill="#39ff14" rx="3"/>'
+              svg += f'<text x="{W-70}" y="{y}" class="value">{pct}%</text>'
+          svg += '</svg>'
+          with open("assets/languages.svg", "w") as f: f.write(svg)
+
+          # ── contributions.svg ──
+          cell, gap, pad_x, pad_y = 11, 2, 20, 50
+          cols = len(weeks); rows = 7
+          CW = pad_x * 2 + cols * (cell + gap)
+          CH = pad_y + rows * (cell + gap) + 30
+          def cc(count):
+              if count == 0: return "#161b22"
+              elif count <= 2: return "#0e4429"
+              elif count <= 6: return "#006d32"
+              elif count <= 12: return "#26a641"
+              else: return "#39ff14"
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{CW}" height="{CH}" viewBox="0 0 {CW} {CH}">
+            <defs><style>
+              .bg {{ fill: #0d1117; }}
+              .title {{ fill: #39ff14; font-family: monospace; font-size: 16px; font-weight: bold; }}
+              .label {{ fill: #8b949e; font-family: monospace; font-size: 11px; }}
+            </style></defs>
+            <rect class="bg" width="100%" height="100%" rx="10" ry="10"/>
+            <text x="20" y="32" class="title">▍ contribution graph — {total_contribs} contributions last year</text>
+            <line x1="20" y1="44" x2="{CW-20}" y2="44" stroke="#163024" stroke-width="1"/>'''
+          for wi, week in enumerate(weeks):
+              for di, day in enumerate(week["contributionDays"]):
+                  x = pad_x + wi * (cell + gap); y = pad_y + di * (cell + gap)
+                  svg += f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" fill="{cc(day["contributionCount"])}" rx="2"/>'
+          ly = CH - 15
+          svg += f'<text x="{CW-180}" y="{ly}" class="label">less</text>'
+          for i, c in enumerate(["#161b22","#0e4429","#006d32","#26a641","#39ff14"]):
+              svg += f'<rect x="{CW-140+i*14}" y="{ly-10}" width="11" height="11" fill="{c}" rx="2"/>'
+          svg += f'<text x="{CW-60}" y="{ly}" class="label">more</text>'
+          svg += '</svg>'
+          with open("assets/contributions.svg", "w") as f: f.write(svg)
+
+          print("✅ Generated stats.svg, languages.svg, contributions.svg")
+          PYEOF
+
+      - name: commit changes
+        run: |
+          git config user.name "Parth Varekar"
+          git config user.email "193486774+ParthVarekar@users.noreply.github.com"
+          git add assets/stats.svg assets/languages.svg assets/contributions.svg
+          git diff --staged --quiet || git commit -m "📊 auto-update profile stats [skip ci]"
+          git push
