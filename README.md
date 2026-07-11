@@ -44,23 +44,16 @@
 
 <br/><br/>
 
-<!-- stats: click → github profile -->
-<a href="https://github.com/ParthVarekar"><img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/stats.svg" alt="github stats" width="420" /></a>
+<!-- live stats: shields.io dynamic badges (real-time from GitHub API, always accurate) -->
+<a href="https://github.com/ParthVarekar"><img src="https://img.shields.io/github/commits/ParthVarekar/ParthVarekar?style=flat&color=39FF14&label=commits&labelColor=0d1117" alt="commits" /></a>
+<a href="https://github.com/ParthVarekar?tab=repositories"><img src="https://img.shields.io/github/search/user/ParthVarekar/repos?style=flat&color=39FF14&label=public%20repos&labelColor=0d1117" alt="repos" /></a>
+<a href="https://github.com/ParthVarekar"><img src="https://img.shields.io/github/followers/ParthVarekar?style=flat&color=39FF14&label=followers&labelColor=0d1117" alt="followers" /></a>
+<a href="https://github.com/ParthVarekar"><img src="https://img.shields.io/github/last-commit/ParthVarekar/ParthVarekar?style=flat&color=39FF14&label=last%20commit&labelColor=0d1117" alt="last commit" /></a>
 
 <br/><br/>
 
-<!-- streak: click → github profile -->
-<a href="https://github.com/ParthVarekar"><img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/streak.svg" alt="streak stats" width="420" /></a>
-
-<br/><br/>
-
-<!-- languages: click → github profile -->
-<a href="https://github.com/ParthVarekar"><img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/languages.svg" alt="top languages" width="420" /></a>
-
-<br/><br/>
-
-<!-- contribution graph: click → github contributions -->
-<a href="https://github.com/ParthVarekar"><img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/contributions.svg" alt="contribution graph" width="500" /></a>
+<!-- activity graph: contribution activity as a line graph (always live) -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ParthVarekar&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&color=39ff14&line=39ff14&point=0d1117&area=true&area_color=39ff14" alt="contribution activity graph" width="500" />
 
 <br/><br/>
 
@@ -73,5 +66,10 @@
 <a href="https://parthvarekar.in"><img src="https://img.shields.io/badge/Web-parthvarekar.in-39FF14?style=flat&logo=googlechrome&logoColor=0d1117&labelColor=0d1117" alt="Website" /></a>
 <a href="https://github.com/ParthVarekar?tab=repositories"><img src="https://img.shields.io/badge/Repos-21-39FF14?style=flat&logo=git&logoColor=0d1117&labelColor=0d1117" alt="Repos" /></a>
 <a href="https://github.com/ParthVarekar?tab=followers"><img src="https://img.shields.io/github/followers/ParthVarekar?style=flat&color=39FF14&label=Follow&labelColor=0d1117" alt="followers" /></a>
+
+<br/><br/>
+
+<!-- dev quote for personality -->
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&bg_color=0d1117&quoteColor=39ff14&authorColor=8b949e&borderColor=163024" alt="dev quote" width="500" />
 
 </div>
