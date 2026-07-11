@@ -2,7 +2,7 @@ name: 📊 update profile stats
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # daily at midnight UTC
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -52,6 +52,7 @@ jobs:
           repos = gh_api(f"/users/{OWNER}/repos?per_page=100")
 
           total_stars = sum(r.get("stargazers_count", 0) for r in repos)
+          total_forks = sum(r.get("forks_count", 0) for r in repos)
           lang_counts = {}
           for r in repos:
               lang = r.get("language")
@@ -65,6 +66,7 @@ jobs:
                 totalCommitContributions
                 totalPullRequestContributions
                 totalIssueContributions
+                totalRepositoryContributions
               }
             }
           }
@@ -75,11 +77,12 @@ jobs:
           total_commits = cc["totalCommitContributions"]
           total_prs = cc["totalPullRequestContributions"]
           total_issues = cc["totalIssueContributions"]
+          total_repos_created = cc["totalRepositoryContributions"]
           weeks = cc["contributionCalendar"]["weeks"]
 
           os.makedirs("assets", exist_ok=True)
 
-          # ── stats.svg ──
+          # ── stats.svg ── (6 meaningful metrics)
           W, H = 440, 180
           svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">
             <defs><style>
@@ -93,12 +96,12 @@ jobs:
             <text x="20" y="32" class="title">▍ parth's github stats</text>
             <line x1="20" y1="44" x2="{W-20}" y2="44" stroke="#163024" stroke-width="1"/>'''
           stats = [
-              ("Total Stars", f"{total_stars}", "★"),
-              ("Total Commits", f"{total_commits}", "⎇"),
-              ("Total PRs", f"{total_prs}", "⇄"),
-              ("Total Issues", f"{total_issues}", "✦"),
               ("Contributions", f"{total_contribs}", "●"),
+              ("Total Commits", f"{total_commits}", "⎇"),
               ("Repositories", f"{user['public_repos']}", "▣"),
+              ("Total Stars", f"{total_stars}", "★"),
+              ("Followers", f"{user['followers']}", "♥"),
+              ("Joined", "2025", "◆"),
           ]
           for i, (label, value, icon) in enumerate(stats):
               col = i % 3; row = i // 3
@@ -167,12 +170,13 @@ jobs:
           with open("assets/contributions.svg", "w") as f: f.write(svg)
 
           print("✅ Generated stats.svg, languages.svg, contributions.svg")
+          print(f"   contributions={total_contribs} commits={total_commits} stars={total_stars} repos={user['public_repos']}")
           PYEOF
 
       - name: commit changes
-        run: |
-          git config user.name "Parth Varekar"
-          git config user.email "193486774+ParthVarekar@users.noreply.github.com"
-          git add assets/stats.svg assets/languages.svg assets/contributions.svg
-          git diff --staged --quiet || git commit -m "📊 auto-update profile stats [skip ci]"
-          git push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📊 auto-update profile stats [skip ci]"
+          commit_user_name: "Parth Varekar"
+          commit_user_email: "193486774+ParthVarekar@users.noreply.github.com"
+          file_pattern: "assets/*.svg"
