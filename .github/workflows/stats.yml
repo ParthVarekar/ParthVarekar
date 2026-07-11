@@ -77,6 +77,22 @@ jobs:
           total_commits = cc["totalCommitContributions"]
           total_prs = cc["totalPullRequestContributions"]
           total_issues = cc["totalIssueContributions"]
+          weeks = cc["contributionCalendar"]["weeks"]
+
+          # Calculate streaks from contribution days
+          all_days = []
+          for w in weeks:
+              for d in w["contributionDays"]:
+                  all_days.append(d)
+          current_streak = 0
+          for d in reversed(all_days):
+              if d["contributionCount"] > 0: current_streak += 1
+              else: break
+          longest_streak = 0; streak = 0
+          for d in all_days:
+              if d["contributionCount"] > 0:
+                  streak += 1; longest_streak = max(longest_streak, streak)
+              else: streak = 0
           total_repos_created = cc["totalRepositoryContributions"]
           weeks = cc["contributionCalendar"]["weeks"]
 
@@ -169,7 +185,34 @@ jobs:
           svg += '</svg>'
           with open("assets/contributions.svg", "w") as f: f.write(svg)
 
-          print("✅ Generated stats.svg, languages.svg, contributions.svg")
+          # ── streak.svg ── (replaces herokuapp streak-stats)
+          SW, SH = 440, 160
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{SW}" height="{SH}" viewBox="0 0 {SW} {SH}">
+            <defs><style>
+              .bg {{ fill: #0d1117; }}
+              .title {{ fill: #39ff14; font-family: monospace; font-size: 16px; font-weight: bold; }}
+              .label {{ fill: #8b949e; font-family: monospace; font-size: 13px; }}
+              .value {{ fill: #39ff14; font-family: monospace; font-size: 20px; font-weight: bold; }}
+              .icon {{ fill: #39ff14; }}
+            </style></defs>
+            <rect class="bg" width="100%" height="100%" rx="10" ry="10"/>
+            <text x="20" y="32" class="title">▍ streak stats</text>
+            <line x1="20" y1="44" x2="{SW-20}" y2="44" stroke="#163024" stroke-width="1"/>'''
+          streak_data = [
+              ("Total Contributions", f"{total_contribs}", "●"),
+              ("Current Streak", f"{current_streak} days", "🔥"),
+              ("Longest Streak", f"{longest_streak} days", "★"),
+          ]
+          for i, (label, value, icon) in enumerate(streak_data):
+              x = 30 + i * 140
+              svg += f'<text x="{x}" y="80" class="icon" font-size="18">{icon}</text>'
+              svg += f'<text x="{x+24}" y="80" class="value">{value}</text>'
+              svg += f'<text x="{x}" y="105" class="label">{label}</text>'
+          svg += f'<text x="20" y="140" class="label" font-size="11">since Jan 2, 2025 · live from github api</text>'
+          svg += '</svg>'
+          with open("assets/streak.svg", "w") as f: f.write(svg)
+
+          print("✅ Generated stats.svg, languages.svg, contributions.svg, streak.svg")
           print(f"   contributions={total_contribs} commits={total_commits} stars={total_stars} repos={user['public_repos']}")
           PYEOF
 
