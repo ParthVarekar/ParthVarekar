@@ -8,7 +8,7 @@
 <br/><br/>
 
 <!-- animated typing line -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=39FF14&center=true&vCenter=true&width=500&lines=%3E+parth+varekar;%3E+building+second+brains+%26+ai+toys;%3E+shipping+things+that+didn't+exist+yesterday" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=3000&pause=800&color=39FF14&center=true&vCenter=true&width=600&lines=%3E+parth+varekar;%3E+building+second+brains+%26+ai+toys;%3E+shipping+things+that+didn%27t+exist+yesterday" alt="Typing SVG" /></a>
 
 <br/>
 
