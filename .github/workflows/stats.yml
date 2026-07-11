@@ -200,7 +200,7 @@ jobs:
             <line x1="20" y1="44" x2="{SW-20}" y2="44" stroke="#163024" stroke-width="1"/>'''
           streak_data = [
               ("Total Contributions", f"{total_contribs}", "●"),
-              ("Current Streak", f"{current_streak} days", "🔥"),
+              ("Current Streak", f"{current_streak} days", "→"),
               ("Longest Streak", f"{longest_streak} days", "★"),
           ]
           for i, (label, value, icon) in enumerate(streak_data):
