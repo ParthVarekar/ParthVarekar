@@ -1,102 +1,287 @@
-<h1>Hey, I'm Parth 👋</h1>
+<!-- ──────────────────────────────────────────────────────────────────────
+     P A R T H   V A R E K A R   ·   ascii terminal profile
+     a retro CRT-terminal themed github profile built from real,
+     selectable ascii text + dynamic stats. native light/dark theme.
+     ────────────────────────────────────────────────────────────────────── -->
 
-<p>B.Tech Computer Engineering student (Mumbai University, 2024–2028) building local-first AI systems. I care about privacy, offline-first architecture, and shipping real tools rather than API wrappers.</p>
+<div align="center">
 
-<p>When I'm not coding, you'll find me watching niche football or staring at my dream car — a black BMW M5 with one red headlight (don't ask why, it just looks right).</p>
+<!-- hero image: AI-generated ASCII-CRT aesthetic -->
+<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/main/assets/hero-banner.png" alt="ASCII CRT terminal banner" width="100%" />
 
-<p align="center"><img src="assets/bmw-banner.png" width="400" alt="Black BMW M5" /></p>
+<!-- animated typing line -->
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=600&color=00FF9C&center=true&vCenter=true&random=false&width=560&lines=%3E+parth+varekar;%3E+building+second+brains+%26+ai+toys;%3E+turning+coffee+into+code;%3E+shipping+things+that+didn't+exist+yesterday;%3E+curiosity+%3E+code+%3E+ship" alt="Typing SVG" /></a>
 
-<hr>
+</div>
 
-<h2>What I'm Building</h2>
+```
+╔ parth@ascii: ~/identity ═══════════════════════════════════════════════╗
+║                                                                        ║
+║              ██████╗   ██████╗ ██████╗  ████████╗██╗  ██╗              ║
+║              ██╔══██╗ ██╔═══██╗██╔══██╗ ╚══██╔══╝██║  ██║              ║
+║              ██████╔╝ ████████║██████╔╝    ██║   ███████║              ║
+║              ██╔═══╝  ██╔══██║ ██╔══██╗    ██║   ██╔══██║              ║
+║              ██║      ██║  ██║ ██║  ██║    ██║   ██║  ██║              ║
+║              ╚═╝      ╚═╝  ╚═╝ ╚═╝  ╚═╝    ╚═╝   ╚═╝  ╚═╝              ║
+║                                                                        ║
+║     ██╗   ██╗ ██████╗ ██████╗  ███████╗ ██╗  ██╗  ██████╗ ██████╗      ║
+║     ██║   ██║██╔═══██╗██╔══██╗ ██╔════╝ ██║ ██╔╝ ██╔═══██╗██╔══██╗     ║
+║     ██║   ██║████████║██████╔╝ █████╗   █████╔╝  ████████║██████╔╝     ║
+║     ╚██╗ ██╔╝██╔══██║ ██╔══██╗ ██╔══╝   ██╔═██╗  ██╔══██║ ██╔══██╗     ║
+║      ╚████╔╝ ██║  ██║ ██║  ██║ ███████╗ ██║  ██╗ ██║  ██║ ██║  ██║     ║
+║       ╚═══╝  ╚═╝  ╚═╝ ╚═╝  ╚═╝ ╚══════╝ ╚═╝  ╚═╝ ╚═╝  ╚═╝ ╚═╝  ╚═╝     ║
+║                                                                        ║
+║   > a developer terminal  ·  v2.5.1  ·  build: ascii  ·  theme: crt    ║
+║                    // curiosity compiled to code //                    ║
+║                                                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
+```
 
-<table>
-<tr>
-<td><b>Project</b></td>
-<td><b>Stack</b></td>
-<td><b>What it does</b></td>
-</tr>
-<tr>
-<td><a href="https://github.com/ParthVarekar/whisper_flow_clone_local"><b>WhisperFlow</b></a></td>
-<td>Python, whisper.cpp, llama.cpp</td>
-<td>Offline STT + LLM pipeline. Zero cloud, zero pip deps. 77/77 tests.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/ParthVarekar/studyos"><b>StudyOS</b></a> · <a href="https://gate-2027-tracker.space-z.ai">Live</a></td>
-<td>Next.js 16, Prisma, SQLite</td>
-<td>GATE 2027 prep PWA. 13 models, offline-first, dogfooded daily.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/ParthVarekar/coding_game"><b>Nexus-AI</b></a></td>
-<td>Vanilla JS, Pyodide/WASM, Canvas</td>
-<td>Educational coding game — real Python in-browser. 60 FPS.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/ParthVarekar/2-nd_Brain"><b>2'nd_Brain</b></a></td>
-<td>FastAPI, ChromaDB, SQLite, Gemini</td>
-<td>Local RAG knowledge base. Dual-store, SSE, knowledge graph.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/ParthVarekar/agent_safety_net"><b>Agent Safety Net</b></a></td>
-<td>TypeScript, Chrome MV3, React</td>
-<td>Browser AI safety — PII + prompt injection at 0.011ms avg.</td>
-</tr>
-<tr>
-<td><a href="https://github.com/ParthVarekar/shorts-intelligence-os"><b>Shorts Intelligence OS</b></a></td>
-<td>FastAPI, NVIDIA NIM, FAISS</td>
-<td>Multi-agent YouTube Shorts analyzer. 15 formal metrics.</td>
-</tr>
-</table>
+```
+$ boot --user=parth --mode=ascii --theme=crt
+[  OK  ] loading kernel modules ..................... done
+[  OK  ] mounting /dev/creativity ................... done
+[  OK  ] starting coffee.service .................... done
+[  OK  ] initializing ideas.stack ................... 21 repos loaded
+[  OK  ] calibrating curiosity ...................... 100%
+[  OK  ] warming up the terminal .................... done
+[  OK  ] profile ready .............................. ok
 
-<hr>
+parth@ascii:~$ whoami
+```
 
-<h2>Tech Stack</h2>
+```
+┌ about.txt ─────────────────────────────────────────────────────────────┐
+│                                                                        │
+│  hi, i'm parth -- a builder who turns curiosity into repositories.     │
+│                                                                        │
+│  i craft second-brains, study tools, ai experiments and the            │
+│  occasional chaotic side project. if it didn't exist yesterday,        │
+│  there's a good chance i'm shipping it today.                          │
+│                                                                        │
+│   > currently ................ building things @ parthvarekar.in       │
+│   > focus     ................ ai · pkm · devtools · trading toys      │
+│   > status    ................ caffeinated  ▓▓▓▓▓▓▓▓░░                 │
+│   > open to   ................ collabs on weird & useful ideas         │
+│   > motto     ................ ship first, perfect later, repeat       │
+│                                                                        │
+└────────────────────────────────────────────────────────────────────────┘
+```
 
-<p>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Next.js_16-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js" />
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-<img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" alt="Prisma" />
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-<img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=flat-square&logo=chroma&logoColor=white" alt="ChromaDB" />
-<br>
-<img src="https://img.shields.io/badge/whisper.cpp-000000?style=flat-square&logo=c&logoColor=white" alt="whisper.cpp" />
-<img src="https://img.shields.io/badge/llama.cpp-000000?style=flat-square&logo=c&logoColor=white" alt="llama.cpp" />
-<img src="https://img.shields.io/badge/Pyodide/WASM-3776AB?style=flat-square&logo=python&logoColor=white" alt="Pyodide" />
-<img src="https://img.shields.io/badge/Chrome_MV3-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Chrome MV3" />
-<img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
-</p>
+```
+parth@ascii:~$ ./skills --list --ascii
 
-<hr>
+  PYTHON        █████████████████░░░  85%   // core
+  TYPESCRIPT    ██████████████░░░░░░  70%   // types, please
+  JAVASCRIPT    ████████████░░░░░░░░  60%   // everywhere
+  NEXT.JS       ████████████░░░░░░░░  62%   // app router enjoyer
+  HTML / CSS    ███████████░░░░░░░░░  55%   // shaping the web
+  AI / ML       █████████░░░░░░░░░░░  45%   // whisper · llms
+  GIT / BASH    ███████████████░░░░░  75%   // terminal native
+  SQL           ██████████░░░░░░░░░░  50%   // joins & jokes
 
-<h2>Connect</h2>
+parth@ascii:~$ _
+```
 
-<p>
-<a href="https://www.linkedin.com/in/parth-varekar-a90b412b1"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:parthvarekar27@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://leetcode.com/u/Parth_Sucks_At_Coding"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=flat-square&logo=leetcode&logoColor=white" alt="LeetCode" /></a>
-<a href="https://instagram.com/par.thh06"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white" alt="Instagram" /></a>
-</p>
+<div align="center">
 
-<hr>
+<!-- colorful tech badges for a pop of color beside the ascii bars -->
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind" />
+<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" alt="Prisma" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
 
-<h2>Stats</h2>
+</div>
 
-<p>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ParthVarekar&theme=2077" alt="Profile Stats" />
-<br>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=ParthVarekar&theme=dark&hide_border=true" alt="Streak Stats" />
-<br>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ParthVarekar&theme=2077" alt="Languages by Repo" />
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=ParthVarekar&theme=2077" alt="Languages by Commit" />
-</p>
+```
+parth@ascii:~$ ls -la ~/projects
 
-<hr>
+┌ ~/projects/second-brain ──────────────────────────────────── [_][#][X] ┐
+│                                                                        │
+│  a personal knowledge os -- your second brain.                         │
+│                                                                        │
+│  lang     ................ TypeScript                                  │
+│  status   ................ building                                    │
+│  stars    ................ private                                     │
+│  repo     ................ -> second-brain                             │
+│                                                                        │
+└────────────────────────────────────────────────────────────────────────┘
 
-<p align="center">
-<img src="assets/football-meme.png" width="300" alt="Football meme" />
-<br>
-<i>"Watching football while my code compiles."</i>
-</p>
+┌ ~/projects/studyos ───────────────────────────────────────── [_][#][X] ┐
+│                                                                        │
+│  an os for focused study + spaced repetition.                          │
+│                                                                        │
+│  lang     ................ TypeScript                                  │
+│  status   ................ building                                    │
+│  stars    ................ new                                         │
+│  repo     ................ -> studyos                                  │
+│                                                                        │
+└────────────────────────────────────────────────────────────────────────┘
+
+┌ ~/projects/shorts-intelligence-os ────────────────────────── [_][#][X] ┐
+│                                                                        │
+│  ai pipeline: long videos -> viral shorts.                             │
+│                                                                        │
+│  lang     ................ Python                                      │
+│  status   ................ experiment                                  │
+│  stars    ................ new                                         │
+│  repo     ................ -> shorts-intelligence-os                   │
+│                                                                        │
+└────────────────────────────────────────────────────────────────────────┘
+
+┌ ~/projects/whisper_flow_clone_local ──────────────────────── [_][#][X] ┐
+│                                                                        │
+│  local whisper-powered voice-to-text flow.                             │
+│                                                                        │
+│  lang     ................ Python                                      │
+│  status   ................ tinkering                                   │
+│  stars    ................ new                                         │
+│  repo     ................ -> whisper_flow_clone_local                 │
+│                                                                        │
+└────────────────────────────────────────────────────────────────────────┘
+
+┌ ~/projects/trusty-trade ──────────────────────────────────── [_][#][X] ┐
+│                                                                        │
+│  a trading playground with signals & backtests.                        │
+│                                                                        │
+│  lang     ................ Python                                      │
+│  status   ................ exploring                                   │
+│  stars    ................ new                                         │
+│  repo     ................ -> trusty-trade                             │
+│                                                                        │
+└────────────────────────────────────────────────────────────────────────┘
+
+┌ ~/projects/2-nd_Brain ────────────────────────────────────── [_][#][X] ┐
+│                                                                        │
+│  earlier iteration of my second-brain experiments.                     │
+│                                                                        │
+│  lang     ................ mixed                                       │
+│  status   ................ archive                                     │
+│  stars    ................ seed                                        │
+│  repo     ................ -> 2-nd_Brain                               │
+│                                                                        │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center">
+
+```
+parth@ascii:~$ ./snake --eat=contributions --render=svg
+```
+
+<!-- contribution-grid snake, theme-aware. generated by a github action -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/github-contribution-grid-snake-dark.svg" width="100%" />
+</picture>
+
+</div>
+
+<div align="center">
+
+```
+parth@ascii:~$ stats --render
+```
+
+<!-- live github stats + streak, side by side via table for robust centering -->
+<table><tr>
+<td align="center" width="50%">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ParthVarekar&show_icons=true&hide_border=true&theme=chartreuse-dark&bg_color=0D1117&title_color=00FF9C&icon_color=00FF9C&text_color=C9D1D9" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=ParthVarekar&show_icons=true&hide_border=true&theme=default&bg_color=FFFFFF&title_color=1A7F37&icon_color=1A7F37&text_color=24292F" />
+  <img alt="parth's github stats" src="https://github-readme-stats.vercel.app/api?username=ParthVarekar&show_icons=true&hide_border=true&theme=chartreuse-dark" width="100%" />
+</picture>
+
+</td>
+<td align="center" width="50%">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=ParthVarekar&theme=chartreuse-dark&hide_border=true&background=0D1117&ring=00FF9C&fire=00FF9C&currStreakLabel=00FF9C" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=ParthVarekar&theme=default&hide_border=true&background=FFFFFF&ring=1A7F37&fire=1A7F37&currStreakLabel=1A7F37" />
+  <img alt="parth's github streak" src="https://github-readme-streak-stats.herokuapp.com/?user=ParthVarekar&theme=chartreuse-dark&hide_border=true" width="100%" />
+</picture>
+
+</td>
+</tr></table>
+
+<br/>
+
+<!-- top languages, theme-aware, centered -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ParthVarekar&layout=compact&hide_border=true&theme=chartreuse-dark&bg_color=0D1117&title_color=00FF9C" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ParthVarekar&layout=compact&hide_border=true&theme=default&bg_color=FFFFFF&title_color=1A7F37" />
+  <img alt="parth's top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParthVarekar&layout=compact&hide_border=true&theme=chartreuse-dark" width="60%" />
+</picture>
+
+</div>
+
+```
+┌ achievements.log --tail ───────────────────────────────────────────────┐
+│                                                                        │
+│   [unlock] ............. first commit     2025-01-02                   │
+│   [unlock] ............. 21 repos shipped ongoing                      │
+│   [unlock] ............. second-brain initiated building               │
+│   [unlock] ............. survived a hackathon (SIH) earned             │
+│   [unlock] ............. caffeinated beyond reason permanent           │
+│   [ .... ] ............. first star       pending                      │
+│   [ .... ] ............. 100 commits      grinding                     │
+│   [ .... ] ............. a repo that trends destiny                    │
+│                                                                        │
+│   > more achievements unlock as the build continues.                   │
+│                                                                        │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+```
+┌ connect.sh --open ─────────────────────────────────────────────────────┐
+│                                                                        │
+│   github    ->  github.com/ParthVarekar                                │
+│   web       ->  parthvarekar.in                                        │
+│   email     ->  say hi via a github issue                              │
+│                                                                        │
+│   open to collaborations, hackathons (SIH),                            │
+│   and any project that needs a curious mind.                           │
+│                                                                        │
+│   // my inbox is a queue. fifo, mostly. be patient. be kind.           │
+│                                                                        │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+```
+╔ system status ═════════════════════════════════════════════════════════╗
+║                                                                        ║
+║   visitors   ................... see badge below                       ║
+║   uptime     ................... since 2025-01-02                      ║
+║   last boot  ................... just now                              ║
+║   signal     ................... ▓▓▓▓▓▓▓▓░░  strong                    ║
+║   coffee     ................... refilling...                          ║
+║   mood       ................... shipping                              ║
+║                                                                        ║
+║   > end of transmission. the cursor blinks. the build continues.       ║
+║                                                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
+```
+
+<div align="center">
+
+<!-- visitor counter + meta badges -->
+<img src="https://komarev.com/ghpvc/?username=ParthVarekar&style=for-the-badge&color=00FF9C&label=VISITORS" alt="visitor count" />
+<img src="https://img.shields.io/github/followers/ParthVarekar?style=for-the-badge&color=00FF9C&label=FOLLOWERS" alt="followers" />
+<img src="https://img.shields.io/github/stars/ParthVarekar?style=for-the-badge&color=00FF9C&label=STARS&affiliates=ParthVarekar" alt="stars" />
+
+<br/><br/>
+
+```
+> _
+```
+
+<sub>handcrafted ascii · powered by curiosity · rendered in monospace</sub>
+
+</div>
