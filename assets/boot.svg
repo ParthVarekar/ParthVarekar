@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="662" height="240" viewBox="0 0 662 240">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .bg { fill: #0d1117; }
+      .term {
+        fill: #5eff9c;
+        font-family: "JetBrains Mono", "Cascadia Code", "Fira Code", "Cascadia Mono", "Menlo", "Consolas", monospace;
+        font-size: 14px;
+        line-height: 20px;
+        filter: url(#glow);
+      }
+    </style>
+  </defs>
+  <rect class="bg" width="100%" height="100%" rx="8" ry="8"/>
+  <text x="20" y="36" class="term" xml:space="preserve">$ boot --user=parth --mode=ascii --theme=crt</text>
+  <text x="20" y="56" class="term" xml:space="preserve">[  OK  ] loading kernel modules ..................... done</text>
+  <text x="20" y="76" class="term" xml:space="preserve">[  OK  ] mounting /dev/creativity ................... done</text>
+  <text x="20" y="96" class="term" xml:space="preserve">[  OK  ] starting coffee.service .................... done</text>
+  <text x="20" y="116" class="term" xml:space="preserve">[  OK  ] initializing ideas.stack ................... 21 repos loaded</text>
+  <text x="20" y="136" class="term" xml:space="preserve">[  OK  ] calibrating curiosity ...................... 100%</text>
+  <text x="20" y="156" class="term" xml:space="preserve">[  OK  ] warming up the terminal .................... done</text>
+  <text x="20" y="176" class="term" xml:space="preserve">[  OK  ] profile ready .............................. ok</text>
+  <text x="20" y="196" class="term" xml:space="preserve"></text>
+  <text x="20" y="216" class="term" xml:space="preserve">parth@ascii:~$ whoami</text>
+</svg>
