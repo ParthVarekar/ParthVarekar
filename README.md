@@ -74,9 +74,4 @@
 <a href="https://github.com/ParthVarekar?tab=repositories"><img src="https://img.shields.io/badge/Repos-21-39FF14?style=flat&logo=git&logoColor=0d1117&labelColor=0d1117" alt="Repos" /></a>
 <a href="https://github.com/ParthVarekar?tab=followers"><img src="https://img.shields.io/github/followers/ParthVarekar?style=flat&color=39FF14&label=Follow&labelColor=0d1117" alt="followers" /></a>
 
-<br/>
-
-<!-- visitor counter -->
-<img src="https://komarev.com/ghpvc/?username=ParthVarekar&style=flat&color=39FF14&label=visitors&labelColor=0d1117" alt="visitors" />
-
 </div>
