@@ -120,4 +120,4 @@ flowchart LR
 <a href="https://github.com/ParthVarekar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-follow-dark.svg"><img alt="Follow on GitHub" src="assets/btn-follow-light.svg" height="46"></picture></a>
 <a href="https://github.com/ParthVarekar/ParthVarekar/issues/new?title=Hello"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-hello-dark.svg"><img alt="Say hello" src="assets/btn-hello-light.svg" height="46"></picture></a>
 
-<img src="https://komarev.com/ghpvc/?username=ParthVarekar&label=profile%20views&color=d9440c&style=flat-square" alt="Profile views">
+<img src="https://komarev.com/ghpvc/?username=ParthVarekar&label=profile%20views&color=1f5fd6&style=flat-square" alt="Profile views">

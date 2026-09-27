@@ -21,10 +21,10 @@ FONTS = {
 }
 
 THEMES = {
-    "dark": dict(bg="#0c0c0e", surface="#131316", line="#26262c", text="#f3f1ec", muted="#a09a91",
-                 faint="#1b1b20", accent="#ff5a1f", accent2="#ffb38a", chip="#1a1a1f"),
-    "light": dict(bg="#faf8f4", surface="#ffffff", line="#e5dfd5", text="#16140f", muted="#655f56",
-                  faint="#f1ece4", accent="#d9440c", accent2="#9e2f07", chip="#f4efe7"),
+    "dark": dict(bg="#0b0e14", surface="#10141c", line="#232a36", text="#e8ecf2", muted="#8b95a5",
+                 faint="#171c26", accent="#5b9cff", accent2="#a9c8ff", chip="#151a23"),
+    "light": dict(bg="#f7f9fc", surface="#ffffff", line="#dfe4ec", text="#0f1623", muted="#5a6475",
+                  faint="#eef2f8", accent="#1f5fd6", accent2="#123f94", chip="#f1f4f9"),
 }
 
 _tt = {k: TTFont(FONT_DIR / f[2]) for k, f in FONTS.items()}

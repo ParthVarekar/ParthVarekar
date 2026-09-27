@@ -21,7 +21,7 @@ def portrait_b64(size=520):
     im = Image.open(ASSETS / "hero-banner.png").convert("L")
     im = ImageOps.autocontrast(im.crop((250, 95, 1070, 875)).resize((size, size), Image.LANCZOS), cutoff=1)
     hx = lambda h: tuple(int(h[i:i + 2], 16) for i in (1, 3, 5))
-    stops = [(0, hx("#0c0c0e")), (0.35, hx("#2a1208")), (0.7, hx("#ff5a1f")), (1, hx("#ffe6d6"))]
+    stops = [(0, hx("#0b0e14")), (0.35, hx("#0f2447")), (0.7, hx("#4d8dff")), (1, hx("#e3eeff"))]
     lut = []
     for i in range(256):
         t = i / 255
@@ -76,7 +76,7 @@ def header(theme, photo):
                    f'<linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">'
                    f'<stop offset="0" stop-color="{c["accent"]}" stop-opacity="0"/>'
                    f'<stop offset=".9" stop-color="{c["accent"]}" stop-opacity=".25"/>'
-                   f'<stop offset="1" stop-color="#ffb38a" stop-opacity=".9"/></linearGradient>')
+                   f'<stop offset="1" stop-color="#a9c8ff" stop-opacity=".9"/></linearGradient>')
     cv.add(f'<g clip-path="url(#pclip)"><image x="{px}" y="{py}" width="{ps}" height="{ps}" '
            f'href="data:image/jpeg;base64,{photo}"/>'
            f'<rect x="{px}" y="{py - 60}" width="{ps}" height="60" fill="url(#scan)" class="sweep"/></g>')

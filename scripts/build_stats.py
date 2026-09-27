@@ -167,8 +167,8 @@ def card(s, theme):
     # languages
     ly = 380
     cv.text(40, ly, "LANGUAGES BY CODE SIZE (PUBLIC REPOS)", "mono", 12, c["accent"], tracking=1.2)
-    shades = [c["accent"], "#ff8a5c" if theme == "dark" else "#ef6a33", c["accent2"],
-              "#7a3a1f" if theme == "dark" else "#f4a57f", "#4a2618" if theme == "dark" else "#f8cdb4", c["line"]]
+    shades = [c["accent"], "#3f7be0" if theme == "dark" else "#4f86e8", c["accent2"],
+              "#2c4a7a" if theme == "dark" else "#9dbcf2", "#1e2f4d" if theme == "dark" else "#cfddf7", c["line"]]
     x, bar_w = 40.0, W - 80
     cv.add(f'<clipPath id="lc"><rect x="40" y="{ly + 14}" width="{bar_w}" height="10" rx="5"/></clipPath><g clip-path="url(#lc)">')
     for i, (name, p) in enumerate(s["langs"]):
