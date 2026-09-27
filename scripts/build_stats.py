@@ -106,7 +106,7 @@ def summarize(user):
         total=cal["totalContributions"],
         commits=user["contributionsCollection"]["totalCommitContributions"],
         prs=user["contributionsCollection"]["totalPullRequestContributions"],
-        current=current, longest=longest,
+        current=current, longest=longest, active=sum(1 for n in counts if n),
         repos=user["repositories"]["totalCount"],
         stars=sum(r["stargazerCount"] for r in user["repositories"]["nodes"]),
         followers=user["followers"]["totalCount"],
@@ -182,8 +182,8 @@ def card(s, theme):
         cv.text(lx + 16, ly + 50, label, "mono", 12.5, c["text"])
         lx += 16 + width(label, "mono", 12.5) + 26
     pl = lambda n, word: f"{n:,} {word}{'' if n == 1 else 's'}"
-    foot = "  ·  ".join([pl(s["repos"], "public repo"), pl(s["stars"], "star"), pl(s["followers"], "follower"),
-                         pl(s["prs"], "pull request")])
+    foot = "  ·  ".join([pl(s["active"], "active day"), pl(s["repos"], "public repo"), pl(s["stars"], "star"),
+                         pl(s["followers"], "follower")])
     cv.add(f'<line x1="40" y1="{ly + 74}" x2="{W - 40}" y2="{ly + 74}" stroke="{c["line"]}"/>')
     cv.text(40, ly + 100, foot, "mono", 12.5, c["muted"], extra='xml:space="preserve"')
 

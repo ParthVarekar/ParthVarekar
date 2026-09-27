@@ -9,6 +9,7 @@ sites refuse automated requests).
 """
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -41,8 +42,13 @@ def main(readme):
             print(f"  {'ok ' if ok else 'ERR'}  file  {url}")
             errors += not ok
             continue
-        status, ctype, head = get(url)
-        ok = status == 200 and ("image" in ctype or head.lstrip().startswith((b"<svg", b"<?xml")))
+        # retry: freshly published files can take a moment to reach GitHub's raw file CDN
+        for attempt in range(4):
+            status, ctype, head = get(url)
+            ok = status == 200 and ("image" in ctype or head.lstrip().startswith((b"<svg", b"<?xml")))
+            if ok or attempt == 3:
+                break
+            time.sleep(20)
         print(f"  {'ok ' if ok else 'ERR'}  {status}  {ctype[:28]:<28}  {url}")
         if not ok:
             errors += 1
