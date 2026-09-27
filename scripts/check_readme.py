@@ -38,7 +38,7 @@ def main(readme):
     print("IMAGES")
     for url in images:
         if not url.startswith("http"):
-            ok = (base / url).is_file()
+            ok = (base / url.split("?")[0]).is_file()
             print(f"  {'ok ' if ok else 'ERR'}  file  {url}")
             errors += not ok
             continue

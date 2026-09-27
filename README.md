@@ -2,8 +2,8 @@
 
 <a href="https://parthvarekar.in">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-    <img alt="Parth Varekar. I build local-first AI software: retrieval engines, voice tools and developer platforms that run on your own hardware." src="assets/header-light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg?v=blue">
+    <img alt="Parth Varekar. I build local-first AI software: retrieval engines, voice tools and developer platforms that run on your own hardware." src="assets/header-light.svg?v=blue" width="100%">
   </picture>
 </a>
 
@@ -20,10 +20,10 @@
 ### Selected work
 
 <p>
-  <a href="https://github.com/ParthVarekar/enterprise_knowledge_assistance"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-eka-dark.svg"><img alt="Enterprise Knowledge Assistant: Slack-native RAG engine with zero-trust ACL and NLI grounding" src="assets/card-eka-light.svg" width="49%"></picture></a>
-  <a href="https://github.com/ParthVarekar/Susurrus"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-whisperflow-dark.svg"><img alt="WhisperFlow: offline dictation with on-device speech recognition and LLM cleanup" src="assets/card-whisperflow-light.svg" width="49%"></picture></a>
-  <a href="https://github.com/ParthVarekar/frigshwar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-codeframe-dark.svg"><img alt="Codeframe: design canvas that exports React and Tailwind" src="assets/card-codeframe-light.svg" width="49%"></picture></a>
-  <a href="https://github.com/ParthVarekar/agent_safety_net"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-agent-safety-net-dark.svg"><img alt="Agent Safety Net: runtime safety layer for AI browser agents" src="assets/card-agent-safety-net-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/ParthVarekar/enterprise_knowledge_assistance"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-eka-dark.svg?v=blue"><img alt="Enterprise Knowledge Assistant: Slack-native RAG engine with zero-trust ACL and NLI grounding" src="assets/card-eka-light.svg?v=blue" width="49%"></picture></a>
+  <a href="https://github.com/ParthVarekar/Susurrus"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-whisperflow-dark.svg?v=blue"><img alt="WhisperFlow: offline dictation with on-device speech recognition and LLM cleanup" src="assets/card-whisperflow-light.svg?v=blue" width="49%"></picture></a>
+  <a href="https://github.com/ParthVarekar/frigshwar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-codeframe-dark.svg?v=blue"><img alt="Codeframe: design canvas that exports React and Tailwind" src="assets/card-codeframe-light.svg?v=blue" width="49%"></picture></a>
+  <a href="https://github.com/ParthVarekar/agent_safety_net"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-agent-safety-net-dark.svg?v=blue"><img alt="Agent Safety Net: runtime safety layer for AI browser agents" src="assets/card-agent-safety-net-light.svg?v=blue" width="49%"></picture></a>
 </p>
 
 <details>
@@ -96,28 +96,28 @@ flowchart LR
 ### Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg">
-  <img alt="Languages: Python, TypeScript, JavaScript, Java, SQL. AI/ML: llama.cpp, GGUF models, RAG, NLI grounding, Gemini API, NVIDIA NIM, PyTorch. Frontend: React, Next.js, Tailwind CSS, Vite, shadcn/ui, Chrome extensions. Backend and data: Node.js, Flask, Spring Boot, Prisma, SQLite, Supabase. Tooling: Git, Linux, Docker, Vitest, GitHub Actions." src="assets/stack-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/stack-dark.svg?v=blue">
+  <img alt="Languages: Python, TypeScript, JavaScript, Java, SQL. AI/ML: llama.cpp, GGUF models, RAG, NLI grounding, Gemini API, NVIDIA NIM, PyTorch. Frontend: React, Next.js, Tailwind CSS, Vite, shadcn/ui, Chrome extensions. Backend and data: Node.js, Flask, Spring Boot, Prisma, SQLite, Supabase. Tooling: Git, Linux, Docker, Vitest, GitHub Actions." src="assets/stack-light.svg?v=blue" width="100%">
 </picture>
 
 ### Activity
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/stats-dark.svg">
-  <img alt="GitHub activity over the last 12 months: contributions, commits, streaks, weekly activity and languages" src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/stats-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/stats-dark.svg?v=blue">
+  <img alt="GitHub activity over the last 12 months: contributions, commits, streaks, weekly activity and languages" src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/stats-light.svg?v=blue" width="100%">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/snake-dark.svg">
-  <img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/snake-light.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/snake-dark.svg?v=blue">
+  <img alt="Contribution graph being eaten by a snake" src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/snake-light.svg?v=blue" width="100%">
 </picture>
 
 <sub>Both graphics are rebuilt every 6 hours from the GitHub API by <a href=".github/workflows/profile.yml">this workflow</a>.</sub>
 
 ### Contact
 
-<a href="https://parthvarekar.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg"><img alt="parthvarekar.in" src="assets/btn-portfolio-light.svg" height="46"></picture></a>
-<a href="https://github.com/ParthVarekar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-follow-dark.svg"><img alt="Follow on GitHub" src="assets/btn-follow-light.svg" height="46"></picture></a>
-<a href="https://github.com/ParthVarekar/ParthVarekar/issues/new?title=Hello"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-hello-dark.svg"><img alt="Say hello" src="assets/btn-hello-light.svg" height="46"></picture></a>
+<a href="https://parthvarekar.in"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-portfolio-dark.svg?v=blue"><img alt="parthvarekar.in" src="assets/btn-portfolio-light.svg?v=blue" height="46"></picture></a>
+<a href="https://github.com/ParthVarekar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-follow-dark.svg?v=blue"><img alt="Follow on GitHub" src="assets/btn-follow-light.svg?v=blue" height="46"></picture></a>
+<a href="https://github.com/ParthVarekar/ParthVarekar/issues/new?title=Hello"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/btn-hello-dark.svg?v=blue"><img alt="Say hello" src="assets/btn-hello-light.svg?v=blue" height="46"></picture></a>
 
 <img src="https://komarev.com/ghpvc/?username=ParthVarekar&label=profile%20views&color=1f5fd6&style=flat-square" alt="Profile views">
