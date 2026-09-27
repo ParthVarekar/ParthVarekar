@@ -1,0 +1,66 @@
+name: profile
+
+# Rebuilds the live graphics (activity card + contribution snake), publishes them to the
+# `output` branch, then checks that every image and link in README.md works.
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build activity card
+        run: |
+          pip install --quiet fonttools brotli
+          python scripts/build_stats.py "${{ github.repository_owner }}" dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build contribution snake
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#ff5a1f&color_dots=#161b22,#4a1d0c,#8a3413,#d0481a,#ff5a1f
+            dist/snake-light.svg?color_snake=#d9440c&color_dots=#ebedf0,#ffd3c0,#ffa47d,#f36d38,#d9440c
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "chore: refresh profile graphics"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  check:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check every README image and link
+        run: python scripts/check_readme.py README.md
