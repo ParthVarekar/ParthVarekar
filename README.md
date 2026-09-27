@@ -1,243 +1,135 @@
-<!-- parth varekar · neon crt terminal profile · click around, things happen -->
+<!-- Parth Varekar · GitHub profile · visuals in assets/ are theme-aware (light + dark) -->
 
-<div align="center">
-
-<!-- hero: click → github profile -->
-<a href="https://github.com/ParthVarekar"><img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/hero-banner.png" alt="Parth on a CRT terminal" width="600" /></a>
-
-<br/><br/>
-
-<!-- animated typing line -->
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&duration=2600&pause=900&color=39FF14&center=true&vCenter=true&width=600&lines=%3E+booting+parth.exe+...;%3E+hi%2C+i%27m+parth+varekar+%F0%9F%91%8B;%3E+building+second+brains+%26+ai+toys;%3E+shipping+things+that+didn%27t+exist+yesterday;%3E+scroll+down.+click+stuff.+break+nothing." alt="Typing SVG" /></a>
+<a href="https://parthvarekar.in">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
+    <img alt="Parth Varekar — I build local-first AI systems: RAG engines, voice tools and developer platforms." src="assets/header-light.svg" width="100%">
+  </picture>
+</a>
 
 <br/>
 
-<a href="https://github.com/ParthVarekar"><img src="https://komarev.com/ghpvc/?username=ParthVarekar&label=visitors%20since%20boot&color=39ff14&style=flat" alt="profile views" /></a>
-<a href="https://github.com/ParthVarekar/ParthVarekar/issues/new?title=%F0%9F%91%BE+hello+from+the+guestbook&body=Hey+Parth%2C+just+stopped+by+your+profile.+%0A%0A%3E+say+something+nice+here"><img src="https://img.shields.io/badge/sign_the-guestbook-39FF14?style=flat&logo=gitbook&logoColor=39FF14&labelColor=0d1117" alt="sign the guestbook" /></a>
+### ⚡ The 30-second version
 
-<br/><br/>
-
-<img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/name.svg" alt="ASCII name art" width="500" />
-
-<br/><br/>
-
-<img src="assets/divider.svg" alt="" width="600" />
-
-<br/><br/>
-
-<!-- live terminal: boots, types, fills skill bars, clears, repeats -->
-<img src="assets/boot.svg" alt="animated terminal: boot log, whoami, skills" width="600" />
-
-<br/><br/>
-
-<!-- tech badges: each clickable to its topic -->
-<a href="https://github.com/topics/python"><img src="https://img.shields.io/badge/Python-39FF14?style=flat&logo=python&logoColor=0d1117&labelColor=0d1117" alt="Python" /></a>
-<a href="https://github.com/topics/typescript"><img src="https://img.shields.io/badge/TypeScript-39FF14?style=flat&logo=typescript&logoColor=0d1117&labelColor=0d1117" alt="TypeScript" /></a>
-<a href="https://github.com/topics/javascript"><img src="https://img.shields.io/badge/JavaScript-39FF14?style=flat&logo=javascript&logoColor=0d1117&labelColor=0d1117" alt="JavaScript" /></a>
-<a href="https://github.com/topics/nextjs"><img src="https://img.shields.io/badge/Next.js-39FF14?style=flat&logo=nextdotjs&logoColor=0d1117&labelColor=0d1117" alt="Next.js" /></a>
-<a href="https://github.com/topics/react"><img src="https://img.shields.io/badge/React-39FF14?style=flat&logo=react&logoColor=0d1117&labelColor=0d1117" alt="React" /></a>
-<a href="https://github.com/topics/tailwind"><img src="https://img.shields.io/badge/Tailwind-39FF14?style=flat&logo=tailwindcss&logoColor=0d1117&labelColor=0d1117" alt="Tailwind" /></a>
-<a href="https://github.com/topics/git"><img src="https://img.shields.io/badge/Git-39FF14?style=flat&logo=git&logoColor=0d1117&labelColor=0d1117" alt="Git" /></a>
-<a href="https://github.com/topics/linux"><img src="https://img.shields.io/badge/Linux-39FF14?style=flat&logo=linux&logoColor=0d1117&labelColor=0d1117" alt="Linux" /></a>
-
-<br/><br/>
-
-<img src="assets/divider.svg" alt="" width="600" />
-
-</div>
-
-### `>_ interactive shell` — click a command to run it
-
-<details>
-<summary><code>parth@crt:~$ ls ~/projects</code></summary>
+|                    |                                                                                                   |
+| ------------------ | ------------------------------------------------------------------------------------------------- |
+| **What I build**   | Local-first AI software: retrieval (RAG), speech, and LLM tooling that runs on your own machine   |
+| **Strongest in**   | Python · TypeScript · LLM integration (llama.cpp, Gemini, NVIDIA NIM) · React / Next.js · Node.js |
+| **How I work**     | Architecture docs first, tests and benchmarks alongside, security treated as a feature            |
+| **Hackathons**     | Smart India Hackathon (SIH) · CodeByte 2.0 ([Credence](https://github.com/ParthVarekar/credence_final)) |
+| **Find me**        | [parthvarekar.in](https://parthvarekar.in) · or [open an issue here](https://github.com/ParthVarekar/ParthVarekar/issues/new?title=Hi%20Parth) to say hi |
 
 <br/>
 
-<details>
-<summary>📁 <code>[01] second-brain/</code></summary>
+### 🧭 Featured work
 
-```diff
-+ personal knowledge os — your second brain
-+ stack:  TypeScript
-+ status: building ▓▓▓▓▓▓▓░░░
-```
-<a href="https://github.com/ParthVarekar/second-brain"><img src="https://img.shields.io/badge/cd-second--brain-39FF14?style=flat&labelColor=0d1117" alt="open second-brain" /></a>
-</details>
+<p align="left">
+  <a href="https://github.com/ParthVarekar/enterprise_knowledge_assistance"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-eka-dark.svg"><img alt="Enterprise Knowledge Assistant — Slack-native RAG engine with zero-trust ACL and NLI grounding" src="assets/card-eka-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/ParthVarekar/Susurrus"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-whisperflow-dark.svg"><img alt="WhisperFlow — offline voice dictation with on-device ASR and LLM cleanup" src="assets/card-whisperflow-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/ParthVarekar/frigshwar"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-codeframe-dark.svg"><img alt="Codeframe — design canvas that exports React + Tailwind" src="assets/card-codeframe-light.svg" width="49%"></picture></a>
+  <a href="https://github.com/ParthVarekar/agent_safety_net"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/card-agent-safety-net-dark.svg"><img alt="Agent Safety Net — runtime safety layer for AI browser agents" src="assets/card-agent-safety-net-light.svg" width="49%"></picture></a>
+</p>
 
 <details>
-<summary>📁 <code>[02] studyos/</code></summary>
-
-```diff
-+ focused study + spaced repetition
-+ stack:  TypeScript
-+ status: building ▓▓▓▓▓▓░░░░
-```
-<a href="https://github.com/ParthVarekar/studyos"><img src="https://img.shields.io/badge/cd-studyos-39FF14?style=flat&labelColor=0d1117" alt="open studyos" /></a>
-</details>
-
-<details>
-<summary>📁 <code>[03] shorts-intelligence-os/</code></summary>
-
-```diff
-+ long videos → viral shorts pipeline
-+ stack:  Python
-+ status: experiment ▓▓▓▓░░░░░░
-```
-<a href="https://github.com/ParthVarekar/shorts-intelligence-os"><img src="https://img.shields.io/badge/cd-shorts--intelligence--os-39FF14?style=flat&labelColor=0d1117" alt="open shorts-intelligence-os" /></a>
-</details>
-
-<details>
-<summary>📁 <code>[04] whisper_flow_clone/</code></summary>
-
-```diff
-+ local whisper voice-to-text flow
-+ stack:  Python
-+ status: tinkering ▓▓▓░░░░░░░
-```
-<a href="https://github.com/ParthVarekar/whisper_flow_clone_local"><img src="https://img.shields.io/badge/cd-whisper__flow__clone-39FF14?style=flat&labelColor=0d1117" alt="open whisper_flow_clone" /></a>
-</details>
-
-```diff
-+ → more @ parthvarekar.in
-```
-</details>
-
-<details>
-<summary><code>parth@crt:~$ cat now.txt</code></summary>
-
-```diff
-+ building   → second-brain & studyos
-+ exploring  → ai agents, local llms, voice interfaces
-+ focus      → ai · pkm · devtools · trading toys
-+ open to    → collabs, hackathons (SIH), weird ideas
-```
-</details>
-
-<details>
-<summary><code>parth@crt:~$ ./quiz --guess-my-main-language</code></summary>
+<summary><b>🔍 How they work under the hood</b> <sub>(click to expand architecture diagrams)</sub></summary>
 
 <br/>
 
-> pick one. no googling. 👀
+**Enterprise Knowledge Assistant.** Every chunk is permission-checked *before* retrieval, and every generated claim is verified *after* generation.
 
-<details><summary><code>[a] JavaScript</code></summary>
-
-```diff
-- close! it's in the toolbox, but not the main weapon. try again.
+```mermaid
+flowchart LR
+    Q["Slack question"] --> ACL{"Zero-trust ACL<br/>per-chunk entitlements"}
+    ACL -->|allowed docs only| R["Hybrid retrieval<br/>BM25 + dense vectors<br/>fused with RRF"]
+    R --> LLM["Gemma 4 on llama.cpp<br/>100% CUDA offload"]
+    LLM --> NLI{"NLI grounding<br/>claim-by-claim"}
+    NLI -->|entailed| A["Answer + citations"]
+    NLI -->|unsupported| X["Abstain"]
 ```
-</details>
-<details><summary><code>[b] TypeScript</code></summary>
 
-```diff
-- warm... it powers second-brain & studyos, but there's one more above it.
-```
-</details>
-<details><summary><code>[c] Python</code></summary>
+**WhisperFlow.** Speech recognition and text editing are split into two local models, so the output is polished, not just transcribed.
 
-```diff
-+ ✔ correct! 85% on the skill meter. ai, pipelines, whisper — all python.
-+ you've unlocked: +1 respect  🟩
+```mermaid
+flowchart LR
+    M["🎙️ Hotkey + mic"] --> ASR["Qwen3-ASR<br/>speech → raw text"]
+    ASR --> P["Gemma via llama.cpp<br/>remove fillers, apply<br/>spoken formatting"]
+    P --> O["Pasted into the<br/>focused app"]
 ```
-</details>
-<details><summary><code>[d] HTML</code></summary>
 
-```diff
-- error: HTML is not a programming language. (don't @ me)
+**Codeframe.** One scene graph drives the editor, the live preview and the code exporter, so what you see is what you ship.
+
+```mermaid
+flowchart LR
+    E["Canvas editor<br/>frames, layout, motion"] --> SG["Scene graph"]
+    SG --> CSS["scene → CSS mapping"]
+    CSS --> PV["Live HTML prototype"]
+    CSS --> CG["Codegen: Vite + React<br/>+ Tailwind + shadcn/ui"]
 ```
-</details>
+
+**Agent Safety Net.** Decisions stay local and deterministic. The LLM only explains why something was blocked.
+
+```mermaid
+flowchart LR
+    AG["AI agent on a page"] --> H["MAIN-world hook<br/>fetch / XHR"]
+    H --> SW["Service-worker engine<br/>PII regex · injection heuristics<br/>intent-drift · anomaly score"]
+    SW --> D{"Decision"}
+    D --> AL["Allow"]
+    D --> W["Warn"]
+    D --> C["Confirm"]
+    D --> B["Block"]
+```
+
 </details>
 
 <details>
-<summary><code>parth@crt:~$ ./fortune</code></summary>
+<summary><b>📂 More projects</b> <sub>(games, fintech, agents & more)</sub></summary>
 
 <br/>
 
-<!-- random dev quote on every page load -->
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&bg_color=0d1117&quoteColor=39ff14&authorColor=8b949e&borderColor=163024" alt="random dev quote" width="500" />
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [**Nexus-AI**](https://github.com/ParthVarekar/coding_game) | 2D sci-fi game that teaches Python & MLOps. Real Python runs in the browser, with a tile level editor and a node-graph campaign builder | JavaScript · Pyodide · Canvas · CodeMirror 6 |
+| [**Shorts Intelligence OS**](https://github.com/ParthVarekar/shorts-intelligence-os) | Multi-agent pipeline that reads retention analytics and writes production-ready short-form scripts, with SQLite memory and learned patterns | Python · SQLite · NVIDIA NIM |
+| [**Credence**](https://github.com/ParthVarekar/credence_final) | Advisor–investor wealth platform (CodeByte 2.0): risk-drift detection, SIP monitoring, explainable recommendations | React · Vite · Supabase · Tailwind |
+| [**StudyOS**](https://github.com/ParthVarekar/studyos) | Offline-first GATE 2027 prep tracker PWA: tests, study sessions, notes and AI chat | Next.js · Prisma · TanStack Query |
+| [**AI Voice Callbot**](https://github.com/ParthVarekar/4th-sem-mini-project-call-bot-) | Voice bot that books appointments over conversation and only saves data after explicit confirmation | Python · Flask · Gemini |
+| [**URL Shortener**](https://github.com/ParthVarekar/url-shortener) | Full-stack workshop project with click tracking | Java · Spring Boot · React |
 
-<sub>↻ refresh the page for a new fortune</sub>
 </details>
-
-<details>
-<summary><code>parth@crt:~$ ls ~/garage</code></summary>
 
 <br/>
 
-<img src="assets/bmw-banner.png" alt="BMW taillights in the dark" width="500" />
+### 🛠️ Toolbox
 
-```diff
-+ night drives > merge conflicts
-```
-</details>
+<a href="https://github.com/ParthVarekar?tab=repositories">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=python,ts,js,java,react,nextjs,nodejs,tailwind,vite,flask,spring,prisma,sqlite,supabase,pytorch,docker,git,linux&perline=9&theme=dark">
+    <img alt="Python, TypeScript, JavaScript, Java, React, Next.js, Node.js, Tailwind, Vite, Flask, Spring, Prisma, SQLite, Supabase, PyTorch, Docker, Git, Linux" src="https://skillicons.dev/icons?i=python,ts,js,java,react,nextjs,nodejs,tailwind,vite,flask,spring,prisma,sqlite,supabase,pytorch,docker,git,linux&perline=9&theme=light">
+  </picture>
+</a>
 
-<details>
-<summary><code>parth@crt:~$ sudo rm -rf /</code> &nbsp;⚠️ <sub>don't.</sub></summary>
-
-```diff
-- [sudo] password for guest: ********
-- guest is not in the sudoers file. this incident will be reported.
-- ...
-- the system has taken a dive:
-```
-<img src="assets/football-meme.png" alt="player diving dramatically" width="250" />
-
-```diff
-+ just kidding. nothing was deleted. go click the other commands. 🟩
-```
-</details>
-
-<details>
-<summary><code>parth@crt:~$ help</code></summary>
-
-```diff
-+ ls ~/projects     — what i'm building
-+ cat now.txt       — what i'm up to
-+ ./quiz            — test your parth knowledge
-+ ./fortune         — random dev wisdom
-+ ls ~/garage       — off-screen hobbies
-+ sudo rm -rf /     — please don't
-+ exit              — scroll down ↓
-```
-</details>
-
-<div align="center">
+**AI / LLM:** llama.cpp (CUDA) · GGUF models (Gemma, Qwen3-ASR) · Gemini API · NVIDIA NIM · RAG (BM25, embeddings, RRF) · NLI grounding
 
 <br/>
 
-<img src="assets/divider.svg" alt="" width="600" />
+### 📈 Activity
 
-<br/><br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ParthVarekar&bg_color=0d1117&color=9b968e&title_color=f3f1ec&line=ff5a1f&point=ffb38a&area=true&area_color=ff5a1f&hide_border=true&radius=12&custom_title=Contributions%20over%20the%20last%2030%20days">
+  <img alt="Contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ParthVarekar&bg_color=ffffff&color=6a655c&title_color=16140f&line=e4480f&point=b8360a&area=true&area_color=e4480f&hide_border=true&radius=12&custom_title=Contributions%20over%20the%20last%2030%20days" width="100%">
+</picture>
 
-<!-- snake eating the contribution graph (regenerated by .github/workflows/snake.yml) -->
-<img src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/snake-neon.svg" alt="snake eating my contributions" width="600" />
-
-<br/><br/>
-
-<!-- live stats: shields.io dynamic badges -->
-<a href="https://github.com/ParthVarekar"><img src="https://img.shields.io/github/commit-activity/m/ParthVarekar/ParthVarekar?style=flat&color=39FF14&label=commits%2Fmonth&labelColor=0d1117" alt="commits per month" /></a>
-<a href="https://github.com/ParthVarekar?tab=repositories"><img src="https://img.shields.io/github/search/user/ParthVarekar/repos?style=flat&color=39FF14&label=public%20repos&labelColor=0d1117" alt="repos" /></a>
-<a href="https://github.com/ParthVarekar"><img src="https://img.shields.io/github/followers/ParthVarekar?style=flat&color=39FF14&label=followers&labelColor=0d1117" alt="followers" /></a>
-<a href="https://github.com/ParthVarekar"><img src="https://img.shields.io/github/last-commit/ParthVarekar/ParthVarekar?style=flat&color=39FF14&label=last%20commit&labelColor=0d1117" alt="last commit" /></a>
-
-<br/><br/>
-
-<!-- activity graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ParthVarekar&theme=chartreuse-dark&hide_border=true&bg_color=0d1117&color=39ff14&line=39ff14&point=0d1117&area=true&area_color=39ff14" alt="contribution activity graph" width="600" />
-
-<br/><br/>
-
-<img src="https://cdn.jsdelivr.net/gh/ParthVarekar/ParthVarekar@main/assets/connect.svg" alt="connect" width="500" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/snake-dark.svg">
+  <img alt="Snake eating my contribution graph" src="https://raw.githubusercontent.com/ParthVarekar/ParthVarekar/output/snake-light.svg" width="100%">
+</picture>
 
 <br/>
 
-<!-- clickable connect links -->
-<a href="https://github.com/ParthVarekar"><img src="https://img.shields.io/badge/GitHub-ParthVarekar-39FF14?style=flat&logo=github&logoColor=0d1117&labelColor=0d1117" alt="GitHub" /></a>
-<a href="https://parthvarekar.in"><img src="https://img.shields.io/badge/Web-parthvarekar.in-39FF14?style=flat&logo=googlechrome&logoColor=0d1117&labelColor=0d1117" alt="Website" /></a>
-<a href="https://github.com/ParthVarekar?tab=followers"><img src="https://img.shields.io/github/followers/ParthVarekar?style=flat&color=39FF14&label=Follow&labelColor=0d1117" alt="follow" /></a>
-<a href="https://github.com/ParthVarekar/ParthVarekar/issues/new?title=%F0%9F%91%BE+hello+from+the+guestbook"><img src="https://img.shields.io/badge/Say-hi-39FF14?style=flat&logo=githubsponsors&logoColor=0d1117&labelColor=0d1117" alt="say hi" /></a>
+<p align="center">
+  <a href="https://parthvarekar.in"><img src="https://img.shields.io/badge/Portfolio-parthvarekar.in-ff5a1f?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=16140f" alt="Portfolio" /></a>
+  <a href="https://github.com/ParthVarekar?tab=followers"><img src="https://img.shields.io/github/followers/ParthVarekar?style=for-the-badge&logo=github&label=Follow&color=ff5a1f&labelColor=16140f" alt="Follow on GitHub" /></a>
+  <a href="https://github.com/ParthVarekar/ParthVarekar/issues/new?title=Hi%20Parth"><img src="https://img.shields.io/badge/Say-hi-ff5a1f?style=for-the-badge&logo=maildotru&logoColor=white&labelColor=16140f" alt="Say hi" /></a>
+</p>
 
-<br/><br/>
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=2500&pause=1200&color=39FF14&center=true&vCenter=true&width=600&lines=parth%40crt%3A~%24+exit;%3E+connection+closed.+thanks+for+visiting+%E2%9C%A6;%3E+(psst%E2%80%A6+did+you+try+sudo%3F)" alt="exit" /></a>
-
-</div>
+<p align="center"><sub>Built the same way as everything else here: from scratch, with care, and a little too much attention to detail.</sub></p>
